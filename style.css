@@ -33,17 +33,22 @@ h1 {
   .cate {
     padding: 0px;
     margin: 20px;
-    width: 62px;
+    width: 74px;
   }
 
 .ingre{
     padding: 0px;
     margin-top: 20px;
-    margin-left: 700px;
+    margin-left: 650px;
 }
 
 .regis{
     padding: 0px;
     margin-top: 20px; 
+}
+
+div{
+  background-color: #6b6969;
+  margin-left: 25px;
 }
 

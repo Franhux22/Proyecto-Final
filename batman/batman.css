@@ -1,0 +1,105 @@
+header {
+    display: flex; 
+    align-items: center;             
+    margin-bottom: 20px;             
+}
+
+/* fondo de imagen 
+ body{
+    background-image:url('https://rukminim2.flixcart.com/image/850/1000/l0e6kcw0/poster/f/q/2/medium-batman-begins-batman-movies-comic-begins-hd-wallpaper-on-original-imagc6xwqfyhp9rt.jpeg?q=90&crop=false.jpg');
+    background-repeat: no-repeat ;
+    background-size: 100% 150%;
+}
+*/
+body{
+    background-color: #aecc9a;
+}
+
+main{
+    display: flex;
+}
+
+ol {
+    list-style: none;
+    margin: 0 20px;  
+    padding: 10px 15px;
+}
+
+
+h1 {
+    text-align: start;
+    text-transform: uppercase;
+    color: #e0633d;
+    padding: 10px;
+    margin: 0px;
+    width: 200px;
+    text-align: start;
+  }
+  .ini {
+    padding: 0px;
+    margin: 20px;
+    width: 37px;
+  }
+
+  .cate {
+    padding: 0px;
+    margin: 20px;
+    width: 74px;
+  }
+
+.ingre{
+    padding: 0px;
+    margin-top: 20px;
+    margin-left: 650px;
+}
+
+.regis{
+    padding: 0px;
+    margin-top: 20px; 
+}
+
+.banner{
+  background-color: #3f4b61;
+  margin-left: 30px;
+}
+
+.image{
+    margin: 0 50px;
+    width: 200px;
+    height: 320px;
+}
+
+.peli{
+    margin-right: 100px;
+}
+
+.titulo{
+    color: white;
+    font-size: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 15px;
+}
+
+.subti{
+    margin-bottom: 30px;
+}
+
+p{
+    color: rgb(99, 98, 98);
+}
+
+.sip{
+    margin: 25px 0 ;
+}
+
+.gena{
+    margin: 10px 0;
+}
+
+
+.pelicula{
+    align-content: center;
+    margin-left: 50px;
+    margin: 50px;
+}
+
