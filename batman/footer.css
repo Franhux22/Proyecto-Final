@@ -8,6 +8,8 @@
 body{
     font-family: sans-serif;
     text-transform: capitalize;
+    position: relative;
+    height: 325vh;
 }
 
 .container{
@@ -35,7 +37,7 @@ body{
     color: #FFFFFF;
     margin-bottom: 25px;
     font-weight: 500;
-    border-bottom: 2px solid #00C3FF;
+    border-bottom: 2px solid #00c3ff;
     padding-bottom: 10px;
     display: inline-block;
 }
@@ -79,5 +81,12 @@ body{
     .footer-links{
         width: 100%;
         margin-bottom: 30px;
+        
     }
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 1349px;
 }

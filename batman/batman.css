@@ -4,16 +4,20 @@ header {
     margin-bottom: 20px;             
 }
 
-/* fondo de imagen 
+
  body{
-    background-image:url('https://rukminim2.flixcart.com/image/850/1000/l0e6kcw0/poster/f/q/2/medium-batman-begins-batman-movies-comic-begins-hd-wallpaper-on-original-imagc6xwqfyhp9rt.jpeg?q=90&crop=false.jpg');
     background-repeat: no-repeat ;
-    background-size: 100% 150%;
+    background: linear-gradient(#151518 15%,#171e42); background-repeat: no-repeat;
+    margin: 0;
+    background-attachment: fixed;
+    background-size: 100% 100%;
 }
-*/
-body{
-    background-color: #aecc9a;
+
+div {
+    display: flex;
 }
+
+
 
 main{
     display: flex;
@@ -34,33 +38,45 @@ h1 {
     margin: 0px;
     width: 200px;
     text-align: start;
+    font-size: 30px;
   }
-  .ini {
+
+.ini {
     padding: 0px;
     margin: 20px;
     width: 37px;
-  }
+    font-size: 15px;
+    color: #fff;
+}
 
-  .cate {
+.cate {
     padding: 0px;
     margin: 20px;
     width: 74px;
+    font-size: 15px;
+    color: #fff;
   }
 
 .ingre{
     padding: 0px;
     margin-top: 20px;
     margin-left: 650px;
+    font-size: 15px;
 }
 
 .regis{
     padding: 0px;
     margin-top: 20px; 
+    font-size: 15px;
 }
 
 .banner{
-  background-color: #3f4b61;
-  margin-left: 30px;
+  mask-position: linear-gradient(
+    black 80%,
+    transparent
+  );
+  margin-top: 8px;
+  margin-left: 40px;
 }
 
 .image{
@@ -82,10 +98,18 @@ h1 {
 
 .subti{
     margin-bottom: 30px;
+    font-size: 15px;
+    color: white;
+}
+
+.dura{
+    color: rgb(255, 255, 255);
+    font-size: 12px;
 }
 
 p{
-    color: rgb(99, 98, 98);
+    font-size: 12px;
+    color: white;
 }
 
 .sip{
@@ -102,4 +126,6 @@ p{
     margin-left: 50px;
     margin: 50px;
 }
+
+
 
