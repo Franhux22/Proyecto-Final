@@ -1,3 +1,11 @@
+.resolucion{
+  width: 99%;
+  text-align: center;
+}
+
+@media (min-width: 480px) and (max-width: 1368){
+  
+}
 /* Base styles */
 body {
   background: linear-gradient(#151518 15%, #171e42);

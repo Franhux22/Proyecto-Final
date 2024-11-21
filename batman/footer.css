@@ -1,38 +1,49 @@
-*{
+/* Reset */
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     list-style: none;
 }
 
-body{
+/* Global Styles */
+body {
     font-family: sans-serif;
     text-transform: capitalize;
     position: relative;
-    height: 325vh;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
 }
 
-.container{
+.container {
     max-width: 1200px;
     margin: 0 auto;
+    flex: 1; /* Hace que el contenedor ocupe el espacio restante entre el contenido y el footer */
+    padding-bottom: 30px; /* Espacio exacto de 30px antes del footer */
 }
 
-.footer{
+/* Footer */
+.footer {
     background-color: #24262c;
-    padding: 88px 0;
+    padding: 40px 0; /* Ajustar el relleno interno del footer */
+    width: 100%; /* Sin espacios laterales */
 }
 
-.footer-row{
+/* Footer Rows and Links */
+.footer-row {
     display: flex;
     flex-wrap: wrap;
+    margin: 0 auto; /* Asegura que los elementos dentro estén centrados */
 }
 
-.footer-links{
+.footer-links {
     width: 25%;
     padding: 0 15px;
 }
 
-.footer-links h4{
+.footer-links h4 {
     font-size: 20px;
     color: #FFFFFF;
     margin-bottom: 25px;
@@ -42,7 +53,7 @@ body{
     display: inline-block;
 }
 
-.footer-links ul li a{
+.footer-links ul li a {
     font-size: 18px;
     text-decoration: none;
     color: #BBBBBB;
@@ -56,6 +67,7 @@ body{
     padding-left: 6px;
 }
 
+/* Social Links */
 .social-links a {
     display: inline-block;
     min-height: 40px;
@@ -69,24 +81,24 @@ body{
     transition: all .5s ease;
 }
 
-.social-links a:hover{
+.social-links a:hover {
     background-color: #00C3FF;
 }
 
-@media(max-width:991px){
-    .footer-row{
+/* Responsive Design */
+@media (max-width: 991px) {
+    .footer-row {
         text-align: center;
     }
 
-    .footer-links{
+    .footer-links {
         width: 100%;
         margin-bottom: 30px;
-        
     }
 }
 
-footer{
-    position: absolute;
-    bottom: 0;
-    width: 1349px;
+/* Sticky Footer Adjustment */
+footer {
+    margin-top: auto; /* Empuja el footer hacia la parte inferior */
+    width: 100%; /* Sin espacios laterales */
 }
