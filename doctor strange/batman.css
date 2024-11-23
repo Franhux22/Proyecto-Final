@@ -1,0 +1,165 @@
+
+@media (min-width: 480px) and (max-width: 1368){
+  
+}
+header {
+  display: flex; 
+  align-items: center;             
+  margin-bottom: 20px;             
+
+  .resolucion{
+    width: 99%;
+    text-align: center;
+  }
+  
+}
+
+
+body{
+  background-repeat: no-repeat ;
+  background: linear-gradient(#151518 15%,#171e42); background-repeat: no-repeat;
+  margin: 0;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+div {
+  display: flex;
+}
+
+main{
+  display: flex;
+}
+
+ol {
+  list-style: none;
+  margin: 0 20px;  
+  padding: 10px 15px;
+}
+
+
+h1 {
+  text-align: start;
+  text-transform: uppercase;
+  color: #e2613a;
+  padding: 10px;
+  margin: 0px;
+  width: 200px;
+  text-align: start;
+  font-size: 30px;
+}
+
+.ini {
+  padding: 0px;
+  margin: 20px;
+  width: 37px;
+  font-size: 15px;
+  color: #fff;
+}
+
+.cate {
+  padding: 0px;
+  margin: 20px;
+  width: 74px;
+  font-size: 15px;
+  color: #fff;
+}
+
+.banner{
+  mask-position: linear-gradient(
+    black 80%,
+    transparent
+  );
+  margin-top: 8px;
+  margin-left: 40px;
+}
+
+.content{
+  display: flex;
+  margin-left: 400px;
+}
+
+button{
+  text-decoration: none;
+  position: relative;
+  border: none;
+  font-size: 14px;
+  color: #FFF;
+  width: 9em;
+  height: 3em;
+  line-height: 2em;
+  text-align: center;
+  background: linear-gradient(90deg, #1d2529, #ac0d0d 40%,#1d2529);
+  background-size: 300%;
+  border-radius: 30px;
+  z-index: 1;
+  cursor: pointer;
+}
+
+button:hover{
+  animation: ani 8s linear infinite;
+  border: none;
+}
+
+/*banner*/
+
+@keyframes ani{
+  0%{
+    background-position: 0% ;
+  }
+  
+  100%{
+    background-position: 400% ;
+  }
+}   
+
+.image{
+    margin: 0 50px;
+    width: 200px;
+    height: 320px;
+}
+
+.peli{
+    margin-right: 100px;
+}
+
+.titulo{
+    color: white;
+    font-size: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 15px;
+}
+
+.subti{
+    margin-bottom: 30px;
+    font-size: 15px;
+    color: white;
+}
+
+.dura{
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+}
+
+p{
+    font-size: 12px;
+    color: white;
+}
+
+.sip{
+    margin: 25px 0 ;
+}
+
+.gena{
+    margin: 10px 0;
+}
+
+
+.pelicula{
+    align-content: center;
+    margin-left: 50px;
+    margin: 50px;
+}
+
+
+
